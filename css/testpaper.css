@@ -1,0 +1,79 @@
+@font-face {
+ font-family: sans-serif,Gujrati-Saral-1;
+  src: url('https://wwwrdinfotechcoin.000webhostapp.com/FONTS/Gujrati-Saral-1.ttf') format('embedded-opentype'), url('https://wwwrdinfotechcoin.000webhostapp.com/FONTS/Gujrati-Saral-1.ttf') format('woff'), url('https://wwwrdinfotechcoin.000webhostapp.com/Gujrati-Saral-1.ttf') format('truetype');
+ font-weight: normal; 
+ font-style: normal;
+}
+#tablediv
+{
+ font-family: sans-serif,g-saral1.TTF;
+ overflow-x:hidden;
+ overflow-y:scroll;
+ height:400px;
+ max-width:auto;
+ margin:10px;
+}
+#resulttable
+{
+	max-height: 100px;
+}
+
+table#questiontable
+{
+font-family: sans-serif,Gujrati-Saral-1;
+ text-align:;
+ border-collapse:collapse;
+ width:740px;
+ border:1px solid #333;
+}
+table#questiontable tr.odd
+{
+ background-color:white;
+ color: green;
+}
+table#questiontable tr
+{
+	background-color:;
+	color:;
+}
+table#questiontable tr#headrow
+{
+ position:;
+ background-color:#333;
+ text-align:;
+}
+table#questiontable th,table#questiontable td
+{
+ padding-right:3px;
+}
+#list
+{	
+ background-color:#96C;
+}
+#list:hover
+{
+	
+ background-color:#CCC;	
+}
+.form-control
+{
+       font-family: sans-serif,Gujrati-Saral-1;
+	width: auto;
+	height: auto;
+}
+#quet textarea,input
+{
+font-family: sans-serif,Gujrati-Saral-1;
+	margin: 10px;
+        width:auto;
+       padding:auto;
+}
+#radio
+{
+font-family: sans-serif,Gujrati-Saral-1; 
+ padding: 10px;
+}
+#manage
+{
+ 	
+}

@@ -1,0 +1,100 @@
+@font-face {
+ font-family: sans-serif,Gujrati-Saral-1;
+  src: url('https://wwwrdinfotechcoin.000webhostapp.com/FONTS/Gujrati-Saral-1.ttf') format('embedded-opentype'), url('https://wwwrdinfotechcoin.000webhostapp.com/FONTS/Gujrati-Saral-1.ttf') format('woff'), url('https://wwwrdinfotechcoin.000webhostapp.com/Gujrati-Saral-1.ttf') format('truetype');
+ font-weight: normal; 
+ font-style: normal;
+}
+body
+{
+	background-repeat: no-repeat;
+	font-family: sans-serif,g-saral1.TTF;
+	opacity:;
+}
+
+header,footer
+{
+
+	color: #ccc;
+	background-color: #333;
+	padding: 20px;
+	text-align: right;
+	box-shadow: 6px 6px 8px black;
+}
+header
+{
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+}
+.header-container
+{
+
+padding:10px;
+margin:10px;
+}
+.nav-tabs
+{
+	height:auto;
+	padding: 0px;
+	margin: 0px;
+	border-radius:0px;
+}
+.nav li
+{
+color:red;
+border-radius:0px;
+}
+#section
+{
+ min-height:400px;
+ max-height:auto;
+}
+#subnav
+{
+	background-color: white;
+}
+#header
+{
+	box-shadow: 6px 6px 8px black;
+}
+#p1
+{
+	background-color:#333;
+	padding: 10px;
+}
+#u1
+{
+	color:#333;
+	margin: 0px;
+	text-shadow:;	
+}
+img
+{
+	margin: 0PX;
+	box-shadow: 6px 6px 8px black;
+}
+article
+{
+	box-shadow: 6px 6px 8px #333;
+}
+h1,h2,h3,h4,h5
+{
+   text-shadow: 6px 6px 8px black;
+   margin: 10px;	
+}
+.page-header
+{
+	box-shadow: 6px 6px 8px #333;
+}
+#att{
+	background-color: darkcyan;
+	}
+	#nota{
+	background-color: gray;
+	}
+	#right{
+	background-color: green;
+	}
+	#wrong{
+	background-color: red;
+	}

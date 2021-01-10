@@ -1,0 +1,32 @@
+@font-face {
+ font-family: 'g-saral1.TTF';
+  src: url(https://https://wwwrdinfotechcoin.000webhostapp.com/font/g-saral1.TTF.ttf);
+}
+#tablediv
+{
+font-family: 'g-saral1.TTF';
+ overflow-x:hidden;
+ overflow-y:scroll;
+ height:400px;
+ max-width:0px;
+}
+table#questiontable
+{
+ text-align:center;
+ border-collapse:collapse;
+ width:740px;
+ border:1px solid black;
+}
+table#questiontable tr.odd
+{
+ background-color:skyblue;
+}
+table#questiontable tr#headrow
+{
+ color:white;
+ background-color:olive;
+}
+table#questiontable th,table#questiontable td
+{
+ padding-right:3px;
+}

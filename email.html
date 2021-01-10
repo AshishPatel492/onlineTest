@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test Mail</title>
+
+</head>
+<body>
+<form action="test.php" method="post">
+Email Id:<input type="text" name="email" required />
+<input type="submit" id="b1" value="Send" onclick="return validate()"/>
+</form>
+<script>
+ function validate()
+  {
+    var result=true;
+	var e=document.getElementsByName("email")[0].value;
+	var atindex=e.indexdOf('@');
+	var dotindex=e.lastIndexdOf('.');
+	if(atindex<1 || dotindex>=e.length-2 || dotindex-atindex<3)
+	  
+	  //document.getElementById("b1").disabled=true;
+	  result=false;
+	//else
+	 // {
+	  //  document.getElementById("b1").disabled=false;
+		//result=true;
+	 // }
+	return(result);
+  
+  
+  }
+</script>
+</body>
+</html>
